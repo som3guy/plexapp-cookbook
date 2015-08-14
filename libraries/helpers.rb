@@ -30,8 +30,8 @@ module PlexAppCookbook
       # This method will construct the URL for the package to download
       # like these:
       # - https://downloads.plex.tv/plex-media-server/0.9.12.1.1079-b655370/plexmediaserver_0.9.12.1.1079-b655370_amd64.deb
-      # - https://downloads.plex.tv/plex-media-server/0.9.12.1.1079-b655370/plexmediaserver-0.9.12.1.1079-b655370.x86_64.rpm
-      # - https://downloads.plex.tv/plex-media-server/0.9.12.1.1079-b655370/plexmediaserver-0.9.12.1.1079-b655370.x86_64.rpm
+      # - https://downloads.plex.tv/plex-media-server/0.9.12.8.1362-4601e39/plexmediaserver-0.9.12.8.1362-4601e39.x86_64.rpm
+      # - https://downloads.plex.tv/plex-media-server/0.9.12.8.1362-4601e39/plexmediaserver-0.9.12.8.1362-4601e39.x86_64.rpm
       # - https://downloads.plex.tv/plex-media-server/0.9.12.1.1079-b655370/PlexMediaServer-0.9.12.1.1079-b655370-freebsd-amd64.tar.bz2
       # - https://downloads.plex.tv/plex-media-server/0.9.12.1.1079-b655370/PlexMediaServer-0.9.12.1.1079-b655370-OSX.zip
       #
