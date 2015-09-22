@@ -35,3 +35,12 @@ end
 service 'plexmediaserver' do
   action [:enable, :start]
 end
+
+template 'Preferences.xml' do
+	path '/var/lib/plexmediaserver/Library/Application Support/Plex Media Server/Preferences.xml'
+	source 'Preferences.xml.erb'
+	mode 0600
+	owner 'plex'
+	group 'plex'
+	notifies :restart, 'service[plexmediaserver]', immeadiately
+end

@@ -3,7 +3,7 @@ maintainer       'Joshua Timberman'
 maintainer_email 'cookbooks@housepub.org'
 license          'Apache 2.0'
 description      'Installs and configures Plex media server'
-version          '1.0.0'
+version          '1.0.2'
 
 supports 'ubuntu'
 supports 'fedora'
