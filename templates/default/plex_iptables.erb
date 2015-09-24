@@ -1,0 +1,2 @@
+# Port for Plex Media server
+-P CUSTOM-INPUT -p tcp -m tcp --dport <%= node['plexapp']['config']['ManualPortMappingPort'] %> -j ACCEPT

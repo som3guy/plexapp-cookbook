@@ -32,6 +32,10 @@ package 'plexmediaserver' do
   source cached_package_file
 end
 
+iptables_rule 'plex_iptables' do 
+	action :enable
+end
+
 service 'plexmediaserver' do
   action [:enable, :start]
 end
@@ -42,5 +46,5 @@ template 'Preferences.xml' do
 	mode 0600
 	owner 'plex'
 	group 'plex'
-	notifies :restart, 'service[plexmediaserver]', immeadiately
+	notifies :restart, 'service[plexmediaserver]', :immediately
 end
